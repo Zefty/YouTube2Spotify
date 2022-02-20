@@ -16,6 +16,8 @@ pip install -r requirements.txt
 
 The repo contains ffmpeg already so no need to pass the `--ffmpeg-path` argument. However, if you would like to use an alternatve version of ffmeg (e.g. linux), you can pass in the ffmeg path.  
 
+NOTE: You need to create obtain a client_secret.json file from Google Cloud to use the Youtube API. 
+
 ### Example
 ```
 python src/main.py --path <path_to_spotify_local_path> --ffmpeg-path <path_to_ffmpeg>
